@@ -10,6 +10,7 @@ class Program
         {
             Console.Clear();
             Console.WriteLine(scripture.GetDisplayText());
+            Console.WriteLine($"\nProgress: {scripture.GetTotalWordCount() - scripture.GetVisibleWordCount()}/{scripture.GetTotalWordCount()} words hidden");
             Console.WriteLine("\nPress Enter to hide words or type 'quit' to exit.");
             string input = Console.ReadLine();
             
