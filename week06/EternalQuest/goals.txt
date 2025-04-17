@@ -1,0 +1,3 @@
+SimpleGoal,Run Marathon,Complete a marathon and earn 1000 points,1000
+EternalGoal,Scripture Study,Read the scriptures every day,100
+ChecklistGoal,Attend the Temple,Attend the temple 10 times,50
